@@ -1,0 +1,17 @@
+repository:
+  name: graphiti-custom
+  description: 面向 AI Agent 的时序上下文图引擎与 MCP 记忆服务
+  homepage: https://github.com/your-org/your-repo
+  private: false
+  has_issues: true
+  has_projects: true
+  has_wiki: false
+  default_branch: main
+  topics:
+    - ai-agent
+    - temporal-graph
+    - knowledge-graph
+    - mcp
+    - memory
+    - neo4j
+    - falkordb
