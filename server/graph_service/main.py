@@ -7,8 +7,8 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse, PlainTextResponse
 
 from graph_service.config import get_settings
-from graph_service.routers import ingest, retrieve
 from graph_service.custom_graphiti import initialize_graphiti
+from graph_service.routers import ingest, retrieve
 
 
 @asynccontextmanager

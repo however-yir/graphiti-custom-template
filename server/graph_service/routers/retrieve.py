@@ -2,6 +2,7 @@ from datetime import datetime, timezone
 
 from fastapi import APIRouter, status
 
+from graph_service.custom_graphiti import CustomGraphitiDep, get_fact_result_from_edge
 from graph_service.dto import (
     GetMemoryRequest,
     GetMemoryResponse,
@@ -9,7 +10,6 @@ from graph_service.dto import (
     SearchQuery,
     SearchResults,
 )
-from graph_service.custom_graphiti import CustomGraphitiDep, get_fact_result_from_edge
 
 router = APIRouter()
 
