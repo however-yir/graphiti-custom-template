@@ -2,7 +2,7 @@
   <img src="images/graphiti-custom-logo.svg" width="160" alt="Graphiti Custom Logo" />
 </p>
 
-<h1 align="center">时序记忆图引擎 Graphiti Custom</h1>
+<h1 align="center">graphiti-custom-template</h1>
 <p align="center">Temporal Context Graph Engine for AI Agents</p>
 
 <p align="center">
